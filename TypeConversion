@@ -1,0 +1,20 @@
+birth_year = input("Enter your birth year ")
+age = 2023 - int(birth_year)
+print(age)
+
+
+#First_number = input("First " )
+#Second_number = input("second ")
+
+#sum = int(First_number) + int(Second_number)
+#sum = float(First_number) + float(Second_number)
+#sum = First_number + Second_number
+#print("sum:" + sum)
+
+
+
+First_number = float(input("First " ))
+Second_number = float(input("second "))
+sum = First_number + Second_number
+
+print("sum: " + str(sum))
