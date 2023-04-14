@@ -1,8 +1,14 @@
 course = ('Python for beginners')
 print(course.upper())
 print(course.lower())
+
+#returns index if not found returns -1
 print(course.find('y'))
+
 print(course.find('Y'))
 print(course.find('Python'))
+
+#(in keyword)returns true or false
 print('Python' in course)
+
 print(course.replace('for', '4'))
