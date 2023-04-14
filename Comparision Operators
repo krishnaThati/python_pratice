@@ -1,3 +1,7 @@
+#comparison Operators
+#to compare the values and return True or false
+
+
 x = 15 > 25
 print(x)
 
