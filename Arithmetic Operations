@@ -1,0 +1,24 @@
+print(10 + 3)
+print(10 - 3)
+
+#will return float value
+print(10 / 3)
+
+#return integer
+print(10 //3)
+print(10 * 3)
+
+#10 power 3
+print(10 ** 3)
+
+x = 10
+
+#Argumented assign operator
+x = x+3
+print(x)
+x += 3
+print(x)
+x -= 3
+print(x)
+x *= 3
+print(x)
