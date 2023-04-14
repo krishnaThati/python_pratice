@@ -1,0 +1,13 @@
+#logical operators
+#To build complex rules and conditions
+
+price = 10
+
+#two boolean conditions are true AND operator returns True
+print(price > 5 and price < 11)
+
+#one boolean expression is ture OR will return true
+print(price > 5 or price < 9)
+
+#actual value is true but NOT inverse the value
+print(not price < 11)
