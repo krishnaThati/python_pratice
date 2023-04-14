@@ -1,0 +1,14 @@
+#IF Statements
+
+#temper = 13
+temper = int(input("enter a value of temper: " ))
+
+if temper > 30:
+    print("it's a hot day")
+    print('drink plenty water')
+elif temper > 20: # (30 ,20)
+    print("it is a nice day")
+elif temper > 10: # (10 , 20 )
+    print("it is bit cold")
+else:
+    print("done")
