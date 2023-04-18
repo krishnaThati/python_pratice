@@ -1,0 +1,16 @@
+#rangefunction
+
+numbers = range(5)
+print(numbers)
+
+numbers = range(0,5) #excludes 5
+for number in numbers:  # number is a loop varible
+ print(number)
+
+#or
+
+ for number in range(5):
+     print(number)
+
+for number in range(5,10,2): #skip 2 numbers
+         print(number) #o/p 5 7 9
