@@ -1,0 +1,10 @@
+#tuples
+#use to store sequence of number and it is immutable
+
+numbers = (1,2,3,4,3,33) # tuples
+#numbers[0] = 10 will give error
+print(numbers.count(3)) #count of 3 occurance
+
+print(numbers.index(1)) # first indet or 1
+
+
