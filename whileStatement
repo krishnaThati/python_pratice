@@ -4,3 +4,11 @@ i = 1
 while i <= 1_000:
     print(i)
     i = i +1
+
+
+#while statement
+i = 1
+#while i <= 5:
+while i <= 10:
+    print(i * '*') #we can multiply string with int but we can't append
+    i = i +1
