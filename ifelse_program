@@ -1,0 +1,18 @@
+units_per_day = 24 * 60
+name_of_units = "minutes"
+
+
+def days_to_hours(num_of_days):
+    if num_of_days > 0:
+        return f"{num_of_days} days have  {num_of_days * units_per_day} {name_of_units}"
+
+    elif num_of_days == 0:
+        print("you entered 0 so no conversion for you ")
+        
+    else:
+        print("you have entered a nagative value so no output for you")
+
+
+user_input = input("hay user, enter no days i will convert ot to Minutes\n")
+calculated_value = days_to_hours(int(user_input))
+print(calculated_value)
