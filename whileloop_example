@@ -1,0 +1,24 @@
+units_per_day = 24 * 60
+name_of_units = "minutes"
+
+
+def days_to_hours(num_of_days):
+    return f"{num_of_days} days have  {num_of_days * units_per_day} {name_of_units}"
+
+
+def validate_and_execute():
+    try:
+        user_input_number = int(user_input)
+        if user_input_number > 0:
+            calculated_value = days_to_hours(user_input_number)
+            print(calculated_value)
+        elif user_input_number == 0:
+            print("you entered 0 so no conversion for you ")
+
+    except ValueError:
+        print("your input is not valid number. don't ruin my program")
+
+
+while True:
+    user_input = input("hay user, enter no days i will convert ot to Minutes\n")
+    validate_and_execute()
