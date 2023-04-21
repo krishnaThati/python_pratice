@@ -1,0 +1,115 @@
+caluculation_of_units = 24
+name_of_units = "hours"
+
+print(f"20 days are {20 * caluculation_of_units} {name_of_units}")
+print(f"30 days are {30 * caluculation_of_units} {name_of_units}")
+
+
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units():
+    print(f"20 days are {20 * caluculation_of_units} {name_of_units}")
+    print("awsome")
+
+days_to_units()
+
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units(num_of_days):
+    print(f"{num_of_days} days are {num_of_days * caluculation_of_units} {name_of_units}")
+    print("awsome")
+
+days_to_units(10)
+days_to_units(20)
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units(num_of_days, custom_message):
+    print(f"{num_of_days} days are {num_of_days * caluculation_of_units} {name_of_units}")
+    print(custom_message)
+
+days_to_units(10, "hi")
+days_to_units(20, "hlo")
+
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units(num_of_days, custom_message):
+    print(f"{num_of_days} days are {num_of_days * caluculation_of_units} {name_of_units}")
+    print(custom_message)
+
+user_input = input("hay user, enter a number of days i will convert into hours\n")
+print(user_input)
+
+
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units(num_of_days, custom_msg):
+    return f"{num_of_days} days are {num_of_days * caluculation_of_units} {name_of_units}"
+
+
+my_var = days_to_units(20, "hi")
+print(my_var)
+
+
+
+
+
+
+
+
+caluculation_of_units = 24
+name_of_units = "hours"
+
+
+def days_to_units(num_of_days):
+    return f"{num_of_days} days are {num_of_days * caluculation_of_units} {name_of_units}"
+
+
+#my_var = days_to_units(20, "hi")
+#print(my_var)
+
+user_input = input("hay user, enter a number of days i will convert into hours\n")
+user_input_number = int(user_input)
+calculated_value = days_to_units(user_input_number)
+print(calculated_value)
+
+#days_to_units(10, "hi")
+#days_to_units(20, "hlo")
+
+#def scope_check():
+    #print(caluculation_of_units)
+    #print(num_of_days)
+	
+	
+	
+	
+units_per_day = 24
+name_of_units = "hours"
+
+def days_to_hours(num_of_days):
+    return f"{num_of_days} days have  {num_of_days * units_per_day} {name_of_units}"
+
+
+user_input = input("hay user, enter no days i will convert ot to hours\n")
+user_input_number = int(user_input)
+calculated_value = days_to_hours(user_input_number)
+print(calculated_value)
