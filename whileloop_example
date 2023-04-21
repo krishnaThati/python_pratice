@@ -1,3 +1,6 @@
+#while == execute a set of statements as long as conditon is true
+
+
 units_per_day = 24 * 60
 name_of_units = "minutes"
 
