@@ -1,0 +1,9 @@
+message = "hi"
+days = 20
+price = 199.99
+valid_number = True
+exit_input = False
+list_of_days = [20, 20, 30, 100]
+list_of_months = ["jan", "feb", "march"]
+set_of_days = {10, 20, 30}
+days_and_unit = {"days":10, "unit":""}
