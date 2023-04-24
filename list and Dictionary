@@ -1,0 +1,6 @@
+my_list = ["10", "20", "30"]
+print(my_list)
+
+my_dictionary = {"days":20, "unit": "hours", "message": "all good"}
+print(my_dictionary)
+print(my_dictionary["message"])
